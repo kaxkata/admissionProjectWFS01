@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+}
+#main{
+    display: grid;
+    grid-template-areas:  'header'
+                          'nav'
+                          'footer';
+    grid-template-rows: 700px 250px 200px;    
+}
+header{
+    grid-area: header;
+    background-color: rgb(92, 92, 148);
+}
+nav{
+    grid-area: nav;
+    background-color: rgb( 203, 76, 5);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+footer{
+    grid-area:footer;
+    background-color: rgb(218,212,218);
+}
+figure{
+   display: flex;
+    justify-content: center;
+    position: relative;
+    top:25%   }
+img{
+    width: 50%;
+    height: 50%;   }
+.title{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    font-weight: bold;
+    color: beige;
+    position: relative;
+    top: 15%;      
+}
+.subtitle{
+font-family: 'Times New Roman', Times, serif;
+font-size: 18pt;
+color: beige;
+font-style: italic;
+display: flex;
+justify-content: flex-end;
+position: relative;
+top: 40%
+}
+div>h1{
+background-color: beige;
+padding: 73px 116px;
+width:40px;
+color: rgb( 203, 76, 5);
+font-family: Arial, Helvetica, sans-serif;
+justify-content: center;
+display: flex;
+}
+div>h2{
+background-color: beige;
+padding: 73px 116px;
+width:40px;
+color: rgb( 203, 76, 5);
+font-family: Arial, Helvetica, sans-serif;
+justify-content: center;
+display: flex;
+}
+ div>h3{
+background-color: beige;
+padding: 73px 116px;
+width:40px;
+color: rgb( 203, 76, 5);
+font-family: Arial, Helvetica, sans-serif;
+justify-content: center;
+display: flex;
+font-size: 25px;
+}
+footer{
+display: flex;
+justify-content:center;
+align-items: center;
+}
+input[type=text] {
+    height: 30px;
+    padding: 7px 90px;
+    border-color: black;
+    border-width: 1px;
+    background-color: beige;
+    
+    
+
+}
+input[type=button]{
+    background-color: rgb( 203, 76, 5);
+    color: beige;
+    padding: 14px 40px;
+    border-color: black;
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
