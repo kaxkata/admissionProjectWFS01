@@ -51,11 +51,12 @@ font-style: italic;
 display: flex;
 justify-content: flex-end;
 position: relative;
-top: 40%
+top: 40%;
+left: -1%;
 }
 div>h1{
 background-color: beige;
-padding: 73px 116px;
+padding: 74px 125px;
 width:40px;
 color: rgb( 203, 76, 5);
 font-family: Arial, Helvetica, sans-serif;
@@ -64,7 +65,7 @@ display: flex;
 }
 div>h2{
 background-color: beige;
-padding: 73px 116px;
+padding: 74px 125px;
 width:40px;
 color: rgb( 203, 76, 5);
 font-family: Arial, Helvetica, sans-serif;
@@ -73,7 +74,7 @@ display: flex;
 }
  div>h3{
 background-color: beige;
-padding: 73px 116px;
+padding: 74px 125px;
 width:40px;
 color: rgb( 203, 76, 5);
 font-family: Arial, Helvetica, sans-serif;
@@ -88,11 +89,11 @@ align-items: center;
 }
 input[type=text] {
     height: 30px;
-    padding: 7px 90px;
+    padding: 13px 90px;
     border-color: black;
     border-width: 1px;
     background-color: beige;
-    
+    font-size: 150%;
     
 
 }
@@ -104,5 +105,11 @@ input[type=button]{
     border-width: 1px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 150%;
+
+}
+input::placeholder{
+color: (rgb(129, 123, 120);
+font-weight: bolder;
 
 }
