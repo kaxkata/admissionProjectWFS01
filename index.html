@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -22,22 +23,23 @@
    </div>
 </header>
 <nav>
-    <div>
+    <div id="typeHtml">
         <h1>HTML</h1>
     </div>
-    <div>
+    <div id="typeCss">
         <h2>CSS</h2>
     </div>
-    <div>
+    <div id="typeJs">
         <h3>Javascript</h3>
     </div>
 </nav>
 <footer>
     
-        <form>
-            <div>
-            <input type="text" placeholder="Coloque aqui o seu email"/><input type="button" value="Enviar"></input>
-            </div>
+        <form name="formulario">
+            
+            <input type="text" placeholder="Coloque aqui o seu email" name="email"/>
+            <input type="submit" onclick="return verifyEmail()" ></input>
+            
         </form>
 
     

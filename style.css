@@ -97,7 +97,7 @@ input[type=text] {
     
 
 }
-input[type=button]{
+input[type=submit]{
     background-color: rgb( 203, 76, 5);
     color: beige;
     padding: 14px 40px;
@@ -110,6 +110,14 @@ input[type=button]{
 }
 input::placeholder{
 color: (rgb(129, 123, 120);
-font-weight: bolder;
+font-weight:bolder;
 
+}
+
+
+@media screen and (max-width: 1000px){
+
+    footer{
+        background-color: blueviolet;
+    }
 }
